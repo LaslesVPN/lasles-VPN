@@ -1,0 +1,122 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.vmodal.open .modal-overlay,
+.vmodal.open .modal {
+  opacity: 1;
+  z-index: 200;
+}
+
+.vmodal.hide .modal-overlay,
+.vmodal.hide .modal {
+  opacity: 1;
+  z-index: 200;
+}
+
+.vmodal.open .modal {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.vmodal.open .modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.vmodal.hide .modal {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.vmodal.hide .modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal,
+.modal-overlay {
+  opacity: 0;
+  z-index: -1;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+}
+
+.modal {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 8px;
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  transition: -webkit-transform 0.3s ease-in;
+  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  background-color: #787892;
+}
+
+.modal__title-bc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: flex-;
+      -ms-flex-align: flex-;
+          align-items: flex-;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #8c8ca8;
+}
+
+.modal__title-bc span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #d0c6d6;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #4e4e5f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.modal__title-bc span:hover {
+  background-color: #393946;
+}
+
+.modal__title {
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
+}
+
+.modal__content {
+  font-size: 20px;
+}
+
+.modal__content p {
+  color: #d4c9e4;
+}
+/*# sourceMappingURL=index.css.map */
