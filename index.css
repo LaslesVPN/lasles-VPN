@@ -34,3 +34,20 @@ body{
     width: 2px;
     height: 125px;
 }
+.person{
+    max-width: 1440px;
+    padding: 67px 90px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #ffff
+    ;
+}
+/* .info{
+    width: 600px;
+} */
+.example{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
