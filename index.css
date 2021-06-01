@@ -1,1 +1,36 @@
 /* No CSS *//*# sourceMappingURL=index.css.map */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Rubik;
+}
+.big-box{
+    max-width: 1140px;
+    /* height: 200px; */
+    padding: 67px 90px;
+   
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+   align-items: center;
+   flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+ 
+}
+.gh1{
+    padding: 0 15px;
+}
+.box1{
+    display: flex;
+    align-items: center;
+}
+.line{
+    background-color: #eee;
+    width: 2px;
+    height: 125px;
+}
