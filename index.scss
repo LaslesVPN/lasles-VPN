@@ -1,4 +1,5 @@
-body{    
+
+body{
     .container{
         display: flex;
         gap: 20px;
@@ -38,5 +39,55 @@ body{
     .third{
         color: green;
     }
-}
 
+/* No CSS */ /*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Rubik;
+}
+.big-box {
+	max-width: 1140px;
+	/* height: 200px; */
+	padding: 67px 90px;
+
+	margin: 0 auto;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-around;
+}
+.gh1 {
+	padding: 0 15px;
+}
+.box1 {
+	display: flex;
+	align-items: center;
+}
+.line {
+	background-color: #eee;
+	width: 2px;
+	height: 125px;
+}
+.person {
+	max-width: 1440px;
+	padding: 67px 90px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	background-color: #ffff;
+}
+/* .info{
+    width: 600px;
+} */
+.example {
+	display: flex;
+	gap: 5px;
+	padding: 10px;
+}}
