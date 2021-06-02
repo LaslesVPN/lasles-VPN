@@ -1,53 +1,48 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
 }
-body{
-    font-family: Rubik;
+
+body .container .text {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 30px;
 }
-.big-box{
-    max-width: 1140px;
-    /* height: 200px; */
-    padding: 67px 90px;
-   
-    margin: 0 auto;
-    display: flex;
-    justify-content: left;
-   align-items: center;
-   flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-around;
- 
+
+body .container .text .first {
+  font-family: sans-serif;
+  font-size: 45px;
 }
-.gh1{
-    padding: 0 15px;
+
+body .container .text .second {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #5a5a5a;
+  font-weight: 100;
 }
-.box1{
-    display: flex;
-    align-items: center;
+
+body .container .text .start {
+  width: 230px;
+  height: 60px;
+  margin-top: 30px;
+  background-color: #f02a2a;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 900;
+  font-family: sans-serif;
+  font-size: 15px;
 }
-.line{
-    background-color: #eee;
-    width: 2px;
-    height: 125px;
+
+body .container .text .start:hover {
+  background-color: #040314;
+  cursor: pointer;
 }
-.person{
-    max-width: 1440px;
-    padding: 67px 90px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-around;
-    background-color: #ffff
-    ;
+
+body .third {
+  color: green;
 }
-/* .info{
-    width: 600px;
-} */
-.example{
-    display: flex;
-    gap: 5px;
-    padding: 10px;
-}
+/*# sourceMappingURL=index.css.map */
