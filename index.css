@@ -7,6 +7,51 @@ body {
 } */
 }
 
+body .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 200px;
+  margin-left: 100px;
+}
+
+body .navbar .vpnp {
+  font-family: sans-serif;
+}
+
+body .navbar .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+body .navbar .nav .navp {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+body .navbar .sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+body .navbar .sign .signp {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+body .navbar .sign .signb {
+  font-family: sans-serif;
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+  width: 150px;
+  border-radius: 25px;
+}
+
 body .container {
   display: -webkit-box;
   display: -ms-flexbox;

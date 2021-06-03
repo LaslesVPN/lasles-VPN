@@ -1,5 +1,43 @@
 
 body{
+    .navbar {
+        display: flex;
+        gap: 200px;
+        margin-left: 100px;
+      
+      
+      .vpnp {
+        font-family: sans-serif;
+      }
+      
+      .nav {
+        display: flex;
+        gap: 50px;
+      
+      .navp {
+        font-family: sans-serif;
+        font-weight: 100;
+      }
+    }
+      
+      .sign {
+        display: flex;
+        gap: 50px;
+      
+      .signp {
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      .signb {
+        font-family: sans-serif;
+        color: red;
+        background-color: white;
+        border: 1px solid red;
+        width: 150px;
+        border-radius: 25px;
+      }
+    }
+    }
     .container{
         display: flex;
         gap: 20px;
