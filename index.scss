@@ -1,29 +1,27 @@
+body {
+  .navbar {
+    display: flex;
+    gap: 200px;
+    margin-left: 100px;
 
-body{
-    .navbar {
-        display: flex;
-        gap: 200px;
-        margin-left: 100px;
-      
-      
-      .vpnp {
-        font-family: sans-serif;
-      }
-      
-      .nav {
-        display: flex;
-        gap: 50px;
-      
+    .vpnp {
+      font-family: sans-serif;
+    }
+
+    .nav {
+      display: flex;
+      gap: 50px;
+
       .navp {
         font-family: sans-serif;
         font-weight: 100;
       }
     }
-      
-      .sign {
-        display: flex;
-        gap: 50px;
-      
+
+    .sign {
+      display: flex;
+      gap: 50px;
+
       .signp {
         font-weight: bold;
         font-family: sans-serif;
@@ -37,95 +35,100 @@ body{
         border-radius: 25px;
       }
     }
+  }
+  .container {
+    display: flex;
+    gap: 20px;
+    .text {
+      width: 500px;
+      margin-left: 100px;
+      margin-top: 30px;
+      .first {
+        font-family: sans-serif;
+        font-size: 45px;
+      }
+      .second {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: rgb(90, 90, 90);
+        font-weight: 100;
+      }
+      .start {
+        width: 230px;
+        height: 60px;
+        margin-top: 30px;
+        background-color: rgb(240, 42, 42);
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        font-weight: 900;
+        font-family: sans-serif;
+        font-size: 15px;
+      }
+      .start:hover {
+        background-color: rgb(4, 3, 20);
+        cursor: pointer;
+      }
     }
-    .container{
-        display: flex;
-        gap: 20px;
-        .text{
-            width: 500px;
-            margin-left: 100px;
-            margin-top: 30px;
-            .first{
-                font-family: sans-serif;
-                font-size: 45px;     
-            }
-            .second{
-                font-family: sans-serif;
-                font-size: 18px;
-                color: rgb(90, 90, 90);
-                font-weight: 100;
-            }
-            .start{
-                width: 230px;
-                height: 60px;
-                margin-top: 30px;
-                background-color: rgb(240, 42, 42);
-                color: white;
-                border: none;
-                outline: none;
-                border-radius: 10px;
-                font-weight: 900;
-                font-family: sans-serif;
-                font-size: 15px;
-            }
-            .start:hover{
-                background-color: rgb(4, 3, 20);
-                cursor: pointer;
-            }
-        }
-    }
-    .third{
-        color: green;
-    }
+  }
+  .third {
+    color: green;
+  }
 
-/* No CSS */ /*# sourceMappingURL=index.css.map */
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-body {
-	font-family: Rubik;
-}
-.big-box {
-	max-width: 1140px;
-	/* height: 200px; */
-	padding: 67px 90px;
+  /* No CSS */ /*# sourceMappingURL=index.css.map */
+  @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Rubik;
+  }
+  .big-box {
+    max-width: 1140px;
+    /* height: 200px; */
+    padding: 67px 90px;
 
-	margin: 0 auto;
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	flex-wrap: wrap;
-	text-align: center;
-	justify-content: space-around;
-}
-.gh1 {
-	padding: 0 15px;
-}
-.box1 {
-	display: flex;
-	align-items: center;
-}
-.line {
-	background-color: #eee;
-	width: 2px;
-	height: 125px;
-}
-.person {
-	max-width: 1440px;
-	padding: 67px 90px;
-	display: flex;
-	margin: 0 auto;
-	justify-content: space-around;
-	background-color: #ffff;
-}
-/* .info{
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .gh1 {
+    padding: 0 15px;
+  }
+  .box1 {
+    display: flex;
+    align-items: center;
+  }
+  .line {
+    background-color: #eee;
+    width: 2px;
+    height: 125px;
+  }
+  .person {
+    max-width: 1440px;
+    padding: 67px 90px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #ffff;
+  }
+  /* .info{
     width: 600px;
 } */
-.example {
-	display: flex;
-	gap: 5px;
-	padding: 10px;
-}}
+  .example {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+  }
+}
+
+.coontainerr {
+  background-color: red;
+}
