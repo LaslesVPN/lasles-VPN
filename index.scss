@@ -1,4 +1,9 @@
+
+
 body {
+  .biggest-container{
+    margin: 0 auto;
+    max-width: 1336px;
   .navbar {
     display: flex;
     gap: 200px;
@@ -75,11 +80,12 @@ body {
   .third {
     color: green;
   }
+}
 
   /* No CSS */ /*# sourceMappingURL=index.css.map */
   @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
   * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
   }
@@ -129,6 +135,45 @@ body {
   }
 }
 
-.coontainerr {
-  background-color: red;
+
+
+.feature{
+  background-color: rgb(248, 248, 248);
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  gap: 50px;
+  border-radius: 10px;
 }
+  .btn2 {
+    width: 230px;
+    height: 60px;
+    margin-top: 70px;
+    background-color: rgb(240, 42, 42);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  .btn2:hover {
+    background-color: rgb(4, 3, 20);
+    cursor: pointer;
+  }
+  .btn-text{
+    margin-top: 50px;
+  }
+  .btn-p-text{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    color: gray;
+  }
+  h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 330px;
+  }
