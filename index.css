@@ -222,4 +222,84 @@ h3 {
   font-size: 30px;
   width: 330px;
 }
+.mu-section-container {
+    background-color: #f8f8f8;
+    position: relative;
+}
+.mu-section-first {
+    justify-content: center;
+    text-align: center;
+    font-family: Rubik;
+  
+}
+.mu-section-first h3 { 
+   padding-top: 100px;
+}
+.mu-section-first p { 
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.mu-section-second {
+  display: flex;
+}
+.mu-section-second-div{
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+  border: 2px solid;  
+  width: 330px;
+  height: 760px;
+}
+.mu-section-second-div img {
+   padding-left: 50px;
+   padding-top: 30px;
+}
+.mu-section-second-div p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 20px 60px; 
+}
+.mu-section-second-div ul {
+  list-style-image: url('img/Group\ 1223.png');
+  padding-left: 50px;
+  font-family: sans-serif;
+}
+.mu-section-second-div price{
+
+}
+.mu-section-second-div button {
+  width: 178px;
+  height: 45px; 
+  border-radius: 50px;
+  background-color: white;
+  border-color: red;
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 80px;
+  
+}
+.mu-section-second-div span {
+  padding-block-end: 50px; 
+  padding-left: 50px; 
+
+} 
+.mu-section-third {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 30px;  
+}
+.mu-section-third span {
+   padding: 20px;
+   margin-top: 20px auto;
+   margin-bottom: 20px auto;
+}
+.mu-section-third img {
+  padding: 50px;
+}
+
+
 /*# sourceMappingURL=index.css.map */
