@@ -58,6 +58,7 @@ body .biggest-container .navbar .sign .signb {
 }
 
 body .biggest-container .container {
+  max-width: 1336px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,5 +254,94 @@ h3 {
   font-family: sans-serif;
   color: grey;
   font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  body .biggest-container {
+    max-width: 1024px;
+  }
+  body .biggest-container .container {
+    max-width: 1024px;
+  }
+  body .biggest-container .container .text {
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  body .biggest-container .container .text .first {
+    font-family: sans-serif;
+    font-size: 35px;
+  }
+  body .biggest-container .container .text .second {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #5a5a5a;
+    font-weight: 100;
+  }
+  body .biggest-container .container .text .start {
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #f02a2a;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  body .biggest-container .container .text .start:hover {
+    background-color: #040314;
+    cursor: pointer;
+  }
+  body .biggest-container .container .text .photo {
+    margin-top: 50px;
+  }
+  body .biggest-container .container .text .photo .image-bro {
+    width: 300px;
+    height: 300px;
+  }
+  body .feature {
+    background-color: #f8f8f8;
+    width: 800px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+  }
+  body .btn2 {
+    width: 200px;
+    height: 60px;
+    margin-top: 70px;
+    background-color: #f02a2a;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  body .btn2:hover {
+    background-color: #040314;
+    cursor: pointer;
+  }
+  body .btn-text {
+    margin-top: 50px;
+  }
+  body .btn-p-text {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    color: gray;
+  }
+  body h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 330px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
